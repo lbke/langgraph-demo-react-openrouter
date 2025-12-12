@@ -4,7 +4,9 @@
 ```
 git clone langgraph-demo-react-openrouter
 cd ./langgraph-demo-react-openrouter
+# Pour avoir accès au CLI langgraph
 uv tool install langgraph-cli[inmem]
+uv sync
 uv run -- langgraph dev
 # Équivalent à:
 # uv venv; source .venv/bin/activate; 

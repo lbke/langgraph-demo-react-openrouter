@@ -2363,6 +2363,7 @@ dependencies = [
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
     { name = "langgraph" },
+    { name = "langgraph-cli", extra = ["inmem"] },
     { name = "python-dotenv" },
 ]
 
@@ -2388,6 +2389,7 @@ requires-dist = [
     { name = "langchain-openai", specifier = ">=0.1.22" },
     { name = "langchain-tavily", specifier = ">=0.1" },
     { name = "langgraph", specifier = ">=1.0.0" },
+    { name = "langgraph-cli", extras = ["inmem"], specifier = ">=0.4.7" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.11.1" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.6.1" },
