@@ -1,7 +1,9 @@
 # LangGraph ReAct Agent Template
 
 
-```
+## Installation avec uv
+
+```sh
 git clone langgraph-demo-react-openrouter
 cd ./langgraph-demo-react-openrouter
 # Pour avoir accès au CLI langgraph
@@ -11,6 +13,18 @@ uv run -- langgraph dev
 # Équivalent à:
 # uv venv; source .venv/bin/activate; 
 # uv add . --dev; langgraph dev
+```
+
+## Installation avec pip
+
+```sh
+git clone langgraph-demo-react-openrouter
+cd ./langgraph-demo-react-openrouter
+# Pour avoir accès au CLI langgraph
+pip install langgraph-cli[inmem]
+# Installation en mode développement
+pip install -e .
+langgraph dev
 ```
 
 ---
