@@ -38,7 +38,7 @@ async def call_model(
     """
     # Initialize the model with tool binding. Change the model or add more tools here.
     model = init_chat_model(
-        model="mistralai/devstral-2512:free",
+        model="mistralai/codestral-2508",
         # OpenRouter utilise le même format d'API qu'OpenAI
         # qui est un standard "de fait"
         model_provider="openai",
